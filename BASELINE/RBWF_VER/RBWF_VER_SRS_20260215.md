@@ -22,4 +22,4 @@
 
 | **ผู้สอบทาน (PR)** | **หัวหน้าทีมวิเคราะห์ (TL)** |
 |---|---|
-| <br/><br/>(นายปริญญา พงษ์ดนตรี) | <br/><br/>(นายวีระ เนียมโภคะ) |
+| <img src="../../LOGO/signature_parinya.png" alt="Signature PR" width="140"/><br/>(นายปริญญา พงษ์ดนตรี) | <img src="../../LOGO/signature_veera.png" alt="Signature TL" width="140"/><br/>(นายวีระ เนียมโภคะ) |

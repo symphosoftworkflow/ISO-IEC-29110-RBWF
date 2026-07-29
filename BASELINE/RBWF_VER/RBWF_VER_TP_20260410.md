@@ -22,4 +22,4 @@
 
 | **ผู้สอบทาน (TL)** | **ผู้ทดสอบระบบ (TESTER)** |
 |---|---|
-| <br/><br/>(นายวีระ เนียมโภคะ) | <br/><br/>(นายประกาศิต ทองนอก) |
+| <img src="../../LOGO/signature_veera.png" alt="Signature TL" width="140"/><br/>(นายวีระ เนียมโภคะ) | <img src="../../LOGO/signature_prakasit.png" alt="Signature TESTER" width="140"/><br/>(นายประกาศิต ทองนอก) |

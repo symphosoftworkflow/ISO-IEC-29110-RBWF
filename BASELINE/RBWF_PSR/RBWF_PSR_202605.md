@@ -22,6 +22,6 @@
 
 ## 2. การอนุมัติและรับรองรายงาน
 
-| **ผู้แทนลูกค้า** | **ผู้จัดการโครงการ (PM)** |
-|---|---|
-| <img src="../../LOGO/nook.png" alt="Signature" width="180"/><br/>(นางษมาภรณ์ พงษ์ดนตรี) | <br/><br/>(นางสาวปวริศา จันทรสถาพร) |
+| **ผู้แทนลูกค้า** | **ผู้จัดการโครงการ (PM)** | **หัวหน้าทีมวิเคราะห์ (TL)** | **นักออกแบบ/พัฒนา (DES/PR)** | **ผู้ทดสอบระบบ (TESTER)** |
+|---|---|---|---|---|
+| <img src="../../LOGO/nook.png" alt="Signature Customer" width="120"/><br/>(นางษมาภรณ์ พงษ์ดนตรี) | <img src="../../LOGO/signature_pawarisa.png" alt="Signature PM" width="120"/><br/>(นางสาวปวริศา จันทรสถาพร) | <img src="../../LOGO/signature_veera.png" alt="Signature TL" width="120"/><br/>(นายวีระ เนียมโภคะ) | <img src="../../LOGO/signature_parinya.png" alt="Signature PR" width="120"/><br/>(นายปริญญา พงษ์ดนตรี) | <img src="../../LOGO/signature_prakasit.png" alt="Signature TESTER" width="120"/><br/>(นายประกาศิต ทองนอก) |

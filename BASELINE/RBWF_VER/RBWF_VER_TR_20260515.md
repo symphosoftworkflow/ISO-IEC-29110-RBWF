@@ -22,4 +22,4 @@
 
 | **ผู้สอบทาน (PM)** | **ผู้ทดสอบระบบ (TESTER)** |
 |---|---|
-| <br/><br/>(นางสาวปวริศา จันทรสถาพร) | <br/><br/>(นายประกาศิต ทองนอก) |
+| <img src="../../LOGO/signature_pawarisa.png" alt="Signature PM" width="140"/><br/>(นางสาวปวริศา จันทรสถาพร) | <img src="../../LOGO/signature_prakasit.png" alt="Signature TESTER" width="140"/><br/>(นายประกาศิต ทองนอก) |

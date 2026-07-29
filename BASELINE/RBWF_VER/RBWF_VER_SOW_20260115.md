@@ -22,4 +22,4 @@
 
 | **ผู้สอบทาน (TL)** | **ผู้จัดการโครงการ (PM)** |
 |---|---|
-| <br/><br/>(นายวีระ เนียมโภคะ) | <br/><br/>(นางสาวปวริศา จันทรสถาพร) |
+| <img src="../../LOGO/signature_veera.png" alt="Signature TL" width="140"/><br/>(นายวีระ เนียมโภคะ) | <img src="../../LOGO/signature_pawarisa.png" alt="Signature PM" width="140"/><br/>(นางสาวปวริศา จันทรสถาพร) |

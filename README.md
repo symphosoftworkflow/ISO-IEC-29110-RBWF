@@ -1,4 +1,4 @@
-<img src="LOGO/logo.png" alt="Symphosoft Logo" width="200"/>
+<img src="LOGO/logo.png" alt="LA-OR Logo" width="200"/>
 
 # RABBIT WORKFLOW (RBWF) - ISO/IEC 29110 WORK PRODUCTS BASELINE
 
