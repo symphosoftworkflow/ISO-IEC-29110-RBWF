@@ -47,3 +47,11 @@
 | 21 | RBWF_VLD | |
 | 21.1 | RBWF_VLD_20260205 | [RBWF_VLD_20260205](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260205) |
 | 21.2 | RBWF_VLD_20260525 | [RBWF_VLD_20260525](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260525) |
+| 22 | ISO_IEC_29110_PROCESS_V8 | [ISO_IEC_29110_PROCESS_LA-OR_V8](../PROCESS/ISO_IEC_29110_PROCESS_LA-OR_V8.png) |
+
+---
+
+## 🔄 ISO/IEC 29110 Development Process Diagram (กระบวนการทำงาน บริษัท ลา-ออ จำกัด V8)
+
+![ISO/IEC 29110 Development Process Diagram](../PROCESS/ISO_IEC_29110_PROCESS_LA-OR_V8.png)
+
