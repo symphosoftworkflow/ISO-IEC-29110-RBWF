@@ -1,41 +1,39 @@
-# ISO-IEC-29110-RBWF. 
+<img src="LOGO/logo.png" alt="Symphosoft Logo" width="200"/>
 
+# RABBIT WORKFLOW (RBWF) - ISO/IEC 29110 WORK PRODUCTS BASELINE
 
-# PROTOTYPE TEMPLATE. 
-ALL WORK PRODUCTS TEMPLATE: 
-https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_ALL
+**Project Title**: RABBIT WORKFLOW  
+**Short Name**: RBWF  
+**Standard Profile**: ISO/IEC 29110 Software Engineering (Basic Profile)  
+**Project Duration**: 01 Jan 2026 – 31 May 2026 (5 Months)  
 
+---
 
-PROJECTNAME: RABBIT WORKFLOW
-PROJECTNAME (SHORT) : RBWF
+## 📌 Baseline Audit Work Products Master Index
 
-PROJECT DURATION: 01 JAN 2026 - 31 MAY 2026  
-PROJECT DURATION: 5 MONTHS
+All official ISO/IEC 29110 Work Products for auditor review are compiled under the **`BASELINE/`** directory.
 
-PROJECT TEAM MEBMER:
+👉 **[Click Here to Access Official Audit Baseline Index (RBWF_ALL)](BASELINE/RBWF_ALL.md)**  
+👉 **[GitHub Pages Live Baseline (RBWF_ALL)](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_ALL)**
 
-1. นางสาวปวริศา จันทรสถาพร	,ROLE: PM	ROLE:   บริหารจัดการโครงการ, ติดตามความก้าวหน้าของโครงการ
-2. นายวีระ เนียมโภคะ	ROLE: TL, AN	ROLE: วางแผนระบบ, วิเคราะห์และออกแบบฟังก์ชัน
-3. นายปริญญา พงษ์ดนตรี	ROLE: DES, PR	ROLE: ออกแบบสถาปัตยกรรมระบบ, พัฒนาและทดสอบโปรแกรม
-4. นายประกาศิต ทองนอก	ROLE: TESTER	ROLE: ทดสอบการใช้งานของระบบ
+---
 
-# PURPOSE OF THIS PROJECT
+## 🏢 Customer Details & Signatory
+- **Customer Organization**: บริษัท ซิมโฟร์ซอฟท์ จำกัด
+- **Authorized Signatory (ผู้มีอำนาจลงนาม)**: นางษมาภรณ์ พงษ์ดนตรี
+- **Signature File**: `customersignature/nook.png`
 
-To copy and modified  WORKPRODUCTS  from [ISO-IEC-29110-WMGT-TEMPLATE to ISO-IEC-29110-RBWF](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_ALL) which I was creating it for WMGT project.
+---
 
-Now ,we need to apply to our RBWF project for ISO/IEC29110 audit.
-# START TO WORK 
-ALL Source code are done in git@github.com:symphosoftworkflow/workflowv2.rabbittile.com.git
+## 👥 Project Team & Roles
 
-Please clone source code to local folder and start from there to create and produce all required work products.
+1. **นางสาวปวริศา จันทรสถาพร** (`Role: PM`) — บริหารจัดการโครงการ, ติดตามความก้าวหน้าของโครงการ
+2. **นายวีระ เนียมโภคะ** (`Role: TL, AN`) — วางแผนระบบ, วิเคราะห์และออกแบบฟังก์ชัน
+3. **นายปริญญา พงษ์ดนตรี** (`Role: DES, PR`) — ออกแบบสถาปัตยกรรมระบบ, พัฒนาและทดสอบโปรแกรม
+4. **นายประกาศิต ทองนอก** (`Role: TESTER`) — ทดสอบการใช้งานของระบบ
 
+---
 
-# OUTPUT WE NEED.
-ALL WORK PRODUCT  .md files that have the same format with [ISO-IEC-29110-WMGT-TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_ALL) and put it in this repository which to be ready publish to GitHub page  
-
-ALL information must be related to source code from [git@github.com:symphosoftworkflow/workflowv2.rabbittile.com.git](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com)
-
-# CUSTOMER DETAILS:
-บริษัท ซิมโฟร์ซอฟท์ จำกัด  
-ผู้มีอำนาจลงนาม : นางษมาภรณ์​  พงษ์ดนตรี  
-ลายเซ็นต์​:  nook.png
+## 🔗 Reference Repositories
+- **Source Code Repository**: [git@github.com:symphosoftworkflow/workflowv2.rabbittile.com.git](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com)
+- **ISO/IEC 29110 Baseline Template**: [ISO-IEC-29110-WMGT-TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_ALL)
