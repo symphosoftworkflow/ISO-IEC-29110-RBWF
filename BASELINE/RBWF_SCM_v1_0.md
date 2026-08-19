@@ -139,7 +139,7 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 รูปแบบระเบียนตามวันที่:
 
 - MOM: `RBWF_MOM_YYYYMMDD.md`
-- PSR: `RBWF_PSR_YYYYMM.md`
+- PSR: `RBWF_PSR_YYYYMMDD.md`
 - CR (รายฉบับ): `RBWF_CR_YYYYMMDD.md`
 - CR (ทะเบียนรวม): `RBWF_CR.md`
 - CRR (Correction Register): `RBWF_CRR.md`

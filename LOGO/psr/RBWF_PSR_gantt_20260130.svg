@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="404" viewBox="0 0 1120 404" role="img" aria-label="แผนเทียบผลจริง RBWF 20260130">
+  <title>Gantt แผนเทียบผลจริง RBWF ณ วันที่รายงาน 30 มกราคม พ.ศ. 2569</title>
+  <style>
+    .title { font: 600 16px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+    .sub { font: 12px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
+    .lbl { font: 12px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #111827; }
+    .mth { font: 600 11px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #374151; }
+    .bar { font: 10px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .pct { font: 10px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #111827; }
+    .leg { font: 11px "Noto Sans Thai", "Sarabun", "Segoe UI", Helvetica, Arial, sans-serif; fill: #111827; }
+    .grid { stroke: #e5e7eb; stroke-width: 1; }
+  </style>
+  <rect width="1120" height="404" fill="#ffffff"/>
+  <text x="16" y="28" class="title">ตารางเวลาโครงการ: แผนเทียบผลจริง</text>
+  <text x="16" y="48" class="sub">ระบบบริหารงานธุรกิจจัดจำหน่ายวัสดุก่อสร้างและกระเบื้องครบวงจร | ณ วันที่รายงาน 30 มกราคม พ.ศ. 2569</text>
+  <g transform="translate(300,70)">
+    <rect x="0.0" y="0" width="160.1" height="28" fill="#eef2ff"/>
+    <text x="80.0" y="18" text-anchor="middle" class="mth">ม.ค. 2569 (31)</text>
+    <rect x="160.1" y="0" width="144.6" height="28" fill="#f9fafb"/>
+    <text x="232.4" y="18" text-anchor="middle" class="mth">ก.พ. 2569 (28)</text>
+    <line x1="160.1" y1="0" x2="160.1" y2="266" class="grid"/>
+    <rect x="304.7" y="0" width="160.1" height="28" fill="#eef2ff"/>
+    <text x="384.8" y="18" text-anchor="middle" class="mth">มี.ค. 2569 (31)</text>
+    <line x1="304.7" y1="0" x2="304.7" y2="266" class="grid"/>
+    <rect x="464.8" y="0" width="155.0" height="28" fill="#f9fafb"/>
+    <text x="542.3" y="18" text-anchor="middle" class="mth">เม.ย. 2569 (30)</text>
+    <line x1="464.8" y1="0" x2="464.8" y2="266" class="grid"/>
+    <rect x="619.8" y="0" width="160.1" height="28" fill="#eef2ff"/>
+    <text x="699.8" y="18" text-anchor="middle" class="mth">พ.ค. 2569 (31)</text>
+    <line x1="619.8" y1="0" x2="619.8" y2="266" class="grid"/>
+    <rect x="0" y="28" width="780.0" height="238" fill="none" stroke="#d1d5db"/>
+  </g>
+  <g transform="translate(16,124)">
+    <text x="0" y="0" class="lbl">1. วิเคราะห์และออกแบบ (31 วัน)</text>
+    <text x="0" y="46" class="lbl">2. พัฒนาระบบหลัก (74 วัน)</text>
+    <text x="0" y="92" class="lbl">3. ทดสอบระบบ (15 วัน)</text>
+    <text x="0" y="138" class="lbl">4. UAT (20 วัน)</text>
+    <text x="0" y="184" class="lbl">5. ส่งมอบระบบ (11 วัน)</text>
+  </g>
+  <g transform="translate(300,106)">
+    <rect x="0.0" y="4" width="160.1" height="14" rx="3" fill="#c7d2fe" stroke="#4f46e5" stroke-width="1"/>
+    <rect x="0.0" y="20" width="155.3" height="14" rx="3" fill="#4f46e5"/>
+    <text x="77.6" y="31" text-anchor="middle" class="bar">97%</text>
+    <rect x="160.1" y="50" width="382.4" height="14" rx="3" fill="#99f6e4" stroke="#0d9488" stroke-width="1"/>
+    <text x="166.1" y="77" class="pct">0%</text>
+    <rect x="542.4" y="96" width="77.5" height="14" rx="3" fill="#fcd34d" stroke="#d97706" stroke-width="1"/>
+    <text x="548.4" y="123" class="pct">0%</text>
+    <rect x="619.9" y="142" width="103.3" height="14" rx="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+    <text x="625.9" y="169" class="pct">0%</text>
+    <rect x="723.2" y="188" width="56.8" height="14" rx="3" fill="#ddd6fe" stroke="#7c3aed" stroke-width="1"/>
+    <text x="729.2" y="215" class="pct">0%</text>
+    <line x1="154.9" y1="-8" x2="154.9" y2="234" stroke="#dc2626" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="154.9" y="-12" text-anchor="middle" class="pct" fill="#dc2626">30 ม.ค.</text>
+  </g>
+  <g transform="translate(300,354)">
+    <rect x="0" y="0" width="36" height="12" rx="2" fill="#c7d2fe" stroke="#4f46e5"/>
+    <text x="42" y="11" class="leg">แผนตาม PMP (แท่งบน)</text>
+    <rect x="220" y="0" width="36" height="12" rx="2" fill="#4f46e5"/>
+    <text x="262" y="11" class="leg">ผลจริงตามร้อยละความคืบหน้า (แท่งล่าง)</text>
+    <line x1="530" y1="6" x2="560" y2="6" stroke="#dc2626" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="566" y="11" class="leg">วันที่รายงาน PSR</text>
+  </g>
+</svg>
