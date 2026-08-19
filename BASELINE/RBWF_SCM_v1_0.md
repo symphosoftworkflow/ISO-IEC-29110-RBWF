@@ -83,7 +83,8 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 | CI-POG | Product Operation Guide | `BASELINE/RBWF_POG_v1_0.md` | TESTER | หลังอนุมัติคู่มือผู้ดูแลระบบ |
 | CI-MA | Maintenance Documentation | `BASELINE/RBWF_MA_v1_0.md` | PM | หลังอนุมัติเอกสารบำรุงรักษา |
 | CI-RTM | Requirements Traceability Matrix | `BASELINE/RBWF_RTM_v1_0.md` | AN, TL | หลังอัปเดตความเชื่อมโยงครบถ้วน |
-| CI-CR | Change Request และ Correction Register | `BASELINE/RBWF_CR/`, `BASELINE/RBWF_CRR.md` | AN / PM | เมื่ออนุมัติและปิดรายการเปลี่ยนแปลง |
+| CI-CR | Change Request | `BASELINE/RBWF_CR.md`, `BASELINE/RBWF_CR/` | AN | เมื่ออนุมัติและปิดรายการเปลี่ยนแปลง |
+| CI-CRR | Correction Register | `BASELINE/RBWF_CRR.md` | PM | เมื่อปิดรายการแก้ไขปัญหาและความเสี่ยง |
 | CI-REC | ระเบียนโครงการ (MOM, PSR, VER, VLD) | `BASELINE/RBWF_MOM/`, `RBWF_PSR/`, `RBWF_VER/`, `RBWF_VLD/` | ตามบทบาท | เก็บในคลังโครงการเมื่อจัดทำเสร็จ (ไม่ต้องทำ baseline ซ้ำทุกฉบับ) |
 
 ---
@@ -106,7 +107,7 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 | Project Plan (PMP), Project Plan Cost (PMPC) | PM |
 | Meeting Record (MOM) | PM |
 | Progress Status Record (PSR) | PM |
-| Change Request (CR) | AN |
+| Change Request (CR) — ทะเบียน `RBWF_CR.md` และแบบฟอร์มใน `RBWF_CR/` | AN |
 | Correction Register (CRR) | PM |
 | Acceptance Record / UAT | PM |
 | Verification Results (VER) | TL |
@@ -139,7 +140,9 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 
 - MOM: `RBWF_MOM_YYYYMMDD.md`
 - PSR: `RBWF_PSR_YYYYMM.md`
-- CR: `RBWF_CR_YYYYMMDD.md`
+- CR (รายฉบับ): `RBWF_CR_YYYYMMDD.md`
+- CR (ทะเบียนรวม): `RBWF_CR.md`
+- CRR (Correction Register): `RBWF_CRR.md`
 - VER: `RBWF_VER_<TYPE>_YYYYMMDD.md`
 - VLD: `RBWF_VLD_YYYYMMDD.md`
 
@@ -201,7 +204,7 @@ Baseline คือข้อกำหนดหรือผลิตภัณฑ�
 1. ยื่นคำขออนุมัติเปลี่ยนแปลง (Change Request - CR) ใน `BASELINE/RBWF_CR/`
 2. วิเคราะห์ผลกระทบด้านขอบเขต ต้นทุน เวลา และเทคนิค โดย Team Lead / System Analyst
 3. CCB พิจารณาอนุมัติหรือปฏิเสธ (PM, TL และผู้มีอำนาจลงนามฝั่งลูกค้าตามความจำเป็น)
-4. ลงบันทึกสถานะใน Change Request Record (`RBWF_CRR.md`)
+4. ลงบันทึกสถานะในทะเบียนคำขอเปลี่ยนแปลง (`RBWF_CR.md`)
 5. ผู้พัฒนาดำเนินการตามที่อนุมัติ แล้วอัปเดตเอกสารหรือซอร์สที่เกี่ยวข้องพร้อมเลขเวอร์ชันใหม่
 6. ทวนสอบผล (VER) หรือตรวจสอบกับลูกค้า (VLD / UAT) ตามลักษณะการเปลี่ยนแปลง
 
@@ -215,7 +218,8 @@ Baseline คือข้อกำหนดหรือผลิตภัณฑ�
 
 - **Git history / GitHub**: ประวัติการเปลี่ยนแปลงซอร์สโค้ดและเอกสาร markdown
 - **ตารางประวัติในเอกสาร**: เวอร์ชัน ผู้ดำเนินการ วันที่ของแต่ละ work product
-- **CR และ CRR**: สถานะคำขอเปลี่ยนแปลงที่เปิด อนุมัติ ปฏิเสธ หรือปิดแล้ว
+- **CR (`RBWF_CR.md`)**: สถานะคำขอเปลี่ยนแปลงที่เปิด อนุมัติ ปฏิเสธ หรือปิดแล้ว
+- **CRR (`RBWF_CRR.md`)**: สถานะการแก้ไขปัญหาและความเสี่ยง
 - **ดัชนี `RBWF_ALL.md`**: รายการเอกสาร baseline ที่ใช้นำเสนอและตรวจประเมิน
 - **บันทึก Backup**: รอบการสำรองข้อมูลตามข้อ 12
 
@@ -260,7 +264,7 @@ Baseline คือข้อกำหนดหรือผลิตภัณฑ�
 |---|---|
 | Version control | Git, GitHub |
 | จัดเก็บเอกสาร baseline | GitHub repository `ISO-IEC-29110-RBWF` โฟลเดอร์ `BASELINE/` |
-| ควบคุมการเปลี่ยนแปลง | แบบฟอร์ม CR และทะเบียน CRR ในคลังเอกสาร |
+| ควบคุมการเปลี่ยนแปลง | แบบฟอร์ม CR ทะเบียน `RBWF_CR.md` และ Correction Register `RBWF_CRR.md` |
 | สถานะและการตรวจ | ประวัติในเอกสาร, VER, VLD, RTM, `RBWF_ALL.md` |
 | Backup ระยะยาว | Google Drive (ผู้รับผิดชอบ PR) |
 
