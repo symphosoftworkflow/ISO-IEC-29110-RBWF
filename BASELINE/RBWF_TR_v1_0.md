@@ -35,7 +35,7 @@
 | Module | Total Cases | Passed | Failed | Status |
 |---|---|---|---|---|
 | **Authentication & RBAC** | 5 | 5 | 0 | **PASSED** |
-| **Stock & Edging Management** | 10 | 10 | 0 | **PASSED** |
+| **Stock Management** | 10 | 10 | 0 | **PASSED** |
 | **RFQ & Quotation System** | 8 | 8 | 0 | **PASSED** |
 | **Purchase Orders & Receipts** | 8 | 8 | 0 | **PASSED** |
 | **Worker Jobs & Queue Display** | 6 | 6 | 0 | **PASSED** |

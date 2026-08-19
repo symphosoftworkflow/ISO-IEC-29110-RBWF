@@ -31,7 +31,6 @@
 |---|---|---|---|---|---|
 | **UR-STK-01** | REQ-STK-01 | `products`, `product_categories` | `handlers/products.go`, `ProductManagement.svelte` | TC-STK-01 | **VERIFIED** |
 | **UR-STK-02** | REQ-STK-02 | `stock`, `stock_adjustments` | `handlers/stock.go`, `StockManagement.svelte` | TC-STK-02 | **VERIFIED** |
-| **UR-EDG-01** | REQ-STK-03 | `edging_recipes` | `handlers/stock_adjust.go`, `EdgingManagement.svelte` | TC-EDG-01 | **VERIFIED** |
 | **UR-QTO-01** | REQ-QTO-01 | `rfq` | `handlers/rfq.go`, `RFQPage.svelte` | TC-QTO-01 | **VERIFIED** |
 | **UR-QTO-02** | REQ-QTO-02 | `quotations`, `quotation_items` | `handlers/quotations.go`, `QuotationManagement.svelte` | TC-QTO-02 | **VERIFIED** |
 | **UR-PO-01** | REQ-PO-01 | `purchase_orders`, `po_items` | `handlers/po_v2.go`, `PurchaseOrdersPage.svelte` | TC-PO-01 | **VERIFIED** |

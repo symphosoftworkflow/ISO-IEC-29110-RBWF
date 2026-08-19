@@ -56,7 +56,7 @@
 - `frontend/package.json` - Node.js Dependency Index
 
 #### 1.2.2 User Interface Pages (`frontend/src/pages/`)
-- `StockManagement.svelte` & `EdgingManagement.svelte` - หน้าจัดการสต็อกและการแปรรูปกระเบื้อง
+- `StockManagement.svelte` - หน้าจัดการสต็อกสินค้า
 - `QuotationManagement.svelte` & `RFQPage.svelte` - หน้าออกใบเสนอราคาและจัดการ RFQ
 - `PurchaseOrdersPage.svelte` & `SuppliersPage.svelte` - หน้าจัดการใบสั่งซื้อและผู้จัดจำหน่าย
 - `WorkerJobsPage.svelte` & `WorkerManagement.svelte` - หน้าจัดการงานช่าง

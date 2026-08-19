@@ -27,7 +27,7 @@
 
 ## 2. ขอบเขตการทดสอบ (Testing Scope)
 
-1. **Unit & API Testing**: ทดสอบ Go API Endpoints ทั้งหมด (Auth, Stock, Edging, Quotation, PO, Worker Jobs, Cash Ledger)
+1. **Unit & API Testing**: ทดสอบ Go API Endpoints ทั้งหมด (Auth, Stock, Quotation, PO, Worker Jobs, Cash Ledger)
 2. **Integration & Workflow Testing**: ทดสอบการเชื่อมโยงกระบวนการทำงานตั้งแต่การเปิด RFQ -> ออก Quotation -> เปิด PO -> ตัดสต็อกกระเบื้อง -> สั่งงานช่าง -> ออก Delivery Note
 3. **Real-time Queue & Notification Testing**: ทดสอบความถูกต้องของ WebSocket บน Queue Display Page
 4. **User Interface & Security Testing**: ทดสอบการล็อกอิน สิทธิ์ RBAC และ Responsive Layout
@@ -40,7 +40,6 @@
 |---|---|---|---|
 | **TC-STK-01** | สต็อก | เพิ่มรายการสินค้ากระเบื้องใหม่ | ข้อมูลสินค้าถูกบันทึกลง MySQL สต็อกเริ่มต้นถูกต้อง |
 | **TC-STK-02** | สต็อก | ปรับปรุงสต็อกกระเบื้อง (Stock Adjust) | ระบบคำนวณยอดคงเหลือใหม่ และลงบันทึกประวัติการปรับ |
-| **TC-EDG-01** | Edging | ดำเนินการตัดกระเบื้องตามสูตร | ระบบตัดสต็อกวัตถุดิบและเพิ่มสต็อกสินค้าสำเร็จรูปถูกต้อง |
 | **TC-QTO-01** | Quotation | สร้างใบเสนอราคาและคำนวณกำไร | ระบบคำนวณราคารวม ส่วนลด กำไร และสร้างเอกสาร PDF |
 | **TC-PO-01** | PO | สร้างใบสั่งซื้อไปยัง Supplier | ออกเอกสาร PO PDF และเปลี่ยนสถานะเป็น Pending Receipt |
 | **TC-WRK-01** | งานช่าง | มอบหมายงานช่างและอัปโหลดรูปภาพ | ระบบอัปเดตสถานะงานและแสดงผลบน Queue Display เรียลไทม์ |

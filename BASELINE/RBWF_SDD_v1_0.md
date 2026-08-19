@@ -70,7 +70,6 @@
 - `product_categories` (id, name, description)
 - `stock` (id, product_id, warehouse_id, quantity, updated_at)
 - `stock_adjustments` (id, product_id, adjust_type, qty_change, reason, created_by)
-- `edging_recipes` (id, source_product_id, target_product_id, ratio, cost)
 
 ### 3.3 ตารางงานขาย คำสั่งซื้อ และซัพพลายเออร์ (RFQ, Quotations & PO)
 - `rfq` (id, rfq_number, customer_name, status, created_at)
@@ -93,7 +92,6 @@
 |---|---|---|---|
 | **Auth** | `/api/v1/auth/login` | `POST` | เข้าสู่ระบบและรับ JWT Token |
 | **Stock** | `/api/v1/stock` | `GET/POST` | สอบถามและอัปเดตสต็อกสินค้า |
-| **Edging** | `/api/v1/edging/convert` | `POST` | ดำเนินการตัดกระเบื้องและปรับปรุงยอดสต็อก |
 | **Quotation** | `/api/v1/quotations` | `GET/POST` | สร้างและค้นหาใบเสนอราคา |
 | **PO** | `/api/v1/po` | `GET/POST` | สร้างและติดตามใบสั่งซื้อ |
 | **Worker Jobs** | `/api/v1/worker-jobs` | `GET/POST` | มอบหมายและอัปเดตงานช่าง |
