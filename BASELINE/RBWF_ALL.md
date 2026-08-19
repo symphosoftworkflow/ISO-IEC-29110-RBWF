@@ -15,7 +15,7 @@
 | WP | ISO/IEC 29110 Work Products | ชื่อเอกสาร (RBWF) | URL |
 |---|---|---|---|
 | | Work Process Flow | ISO_IEC_29110_PROCESS_LA-OR_V8 | [ISO_IEC_29110_PROCESS_LA-OR_V8](../PROCESS/ISO_IEC_29110_PROCESS_LA-OR_V8.png) |
-| | Version Control Strategy | RBWF_SC_v1_0 | [RBWF_SC_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SC_v1_0) |
+| | Version Control Strategy | RBWF_SCM_v1_0 | [RBWF_SCM_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SCM_v1_0) |
 | WP.10 | Project Plan (Val) | RBWF_PMP_v1_0 | [RBWF_PMP_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PMP_v1_0) |
 | WP.10 | Project Plan Cost (ส่วนประกอบของแผนโครงการ) | RBWF_PMPC_v1_0 | [RBWF_PMPC_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PMPC_v1_0) |
 | WP.22 | Validation Record (Ver) | RBWF_VER_PMP_20260120 | [RBWF_VER_PMP_20260120](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VER/RBWF_VER_PMP_20260120) |

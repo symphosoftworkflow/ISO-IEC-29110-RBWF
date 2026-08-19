@@ -105,6 +105,7 @@
 - **ISO/IEC 29110 Work Products Repository**: `git@github.com:symphosoftworkflow/ISO-IEC-29110-RBWF.git`
 - **การควบคุมเวอร์ชัน**: ใช้ Git ในการติดตามการเปลี่ยนแปลงของโค้ด และจัดทำ Baseline Tag ในแต่ละหมวดเอกสาร
 - **การสำรองข้อมูล (Backup & Recovery)**: สำรองข้อมูลฐานข้อมูล MySQL และ Source code ทุกสิ้นเดือน ไปยัง Google Drive รับผิดชอบโดย นายปริญญา พงษ์ดนตรี (PR)
+- **แผน SCM ฉบับเต็ม**: แนวทางระบุ Configuration Items การตั้งชื่อไฟล์ การทำ Baseline การควบคุม CR และการสำรองข้อมูล กำหนดไว้ในเอกสาร [RBWF_SCM_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SCM_v1_0)
 
 ---
 
