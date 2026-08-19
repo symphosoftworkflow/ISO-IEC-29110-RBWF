@@ -52,7 +52,7 @@
 | **UR-NFR-01** | PMP 2.2 | REQ-NFR-01 | Availability / uptime | Docker + Nginx production | TC-NFR-01 | **VERIFIED** |
 | **UR-NFR-02** | PMP 2.2 | REQ-NFR-02 | Performance / concurrent users | API handlers, Svelte UI | TC-NFR-02 | **VERIFIED** |
 | **UR-NFR-03** | PMP 2.2 | REQ-NFR-03 | JWT, HTTPS, bcrypt, RBAC | `middleware/`, `handlers/auth.go` | TC-NFR-03 | **VERIFIED** |
-| **UR-NFR-04** | PMP 2.2 | REQ-NFR-04 | MySQL backup / restore | SCM monthly dump, Google Drive | TC-NFR-04 | **VERIFIED** |
+| **UR-NFR-04** | PMP 2.2 | REQ-NFR-04 | MySQL backup / restore | SCM monthly dump, [Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) | TC-NFR-04 | **VERIFIED** |
 
 ---
 

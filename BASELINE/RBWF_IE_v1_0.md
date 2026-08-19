@@ -109,7 +109,7 @@ npm run dev
 
 ### 5.2 สภาพแวดล้อมการสำรองข้อมูล (Backup Environment)
 - **Database Automated Backup**: `mysqldump` ทำงานร่วมกับ Cron Job ทุกวัน เวลา 01:00 น.
-- **Off-site Backup Storage**: จัดเก็บไฟล์ `.sql.gz` สำรองย้อนหลัง 30 วันใน Secure Cloud Storage
+- **Off-site Backup Storage**: จัดเก็บไฟล์ `.sql.gz` สำรองย้อนหลัง 30 วัน และสำเนารายเดือนใน [โฟลเดอร์ Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) ตามทะเบียน [RBWF_BK_v1_0](RBWF_BK_v1_0.md)
 
 ---
 

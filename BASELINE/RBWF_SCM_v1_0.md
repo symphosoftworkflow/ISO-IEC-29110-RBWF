@@ -85,6 +85,7 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 | CI-RTM | Requirements Traceability Matrix | `BASELINE/RBWF_RTM_v1_0.md` | AN, TL | หลังอัปเดตความเชื่อมโยงครบถ้วน |
 | CI-CR | Change Request | `BASELINE/RBWF_CR.md`, `BASELINE/RBWF_CR/` | AN | เมื่ออนุมัติและปิดรายการเปลี่ยนแปลง |
 | CI-CRR | Correction Register | `BASELINE/RBWF_CRR.md` | PM | เมื่อปิดรายการแก้ไขปัญหาและความเสี่ยง |
+| CI-BK | Project Repository Backup | `BASELINE/RBWF_BK_v1_0.md`, [Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) | PR | เมื่อสำรองรายเดือนครบรอบ |
 | CI-REC | ระเบียนโครงการ (MOM, PSR, VER, VLD) | `BASELINE/RBWF_MOM/`, `RBWF_PSR/`, `RBWF_VER/`, `RBWF_VLD/` | ตามบทบาท | เก็บในคลังโครงการเมื่อจัดทำเสร็จ (ไม่ต้องทำ baseline ซ้ำทุกฉบับ) |
 
 ---
@@ -109,6 +110,7 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 | Progress Status Record (PSR) | PM |
 | Change Request (CR) — ทะเบียน `RBWF_CR.md` และแบบฟอร์มใน `RBWF_CR/` | AN |
 | Correction Register (CRR) | PM |
+| Project Repository Backup (BK) | PR |
 | Acceptance Record / UAT | PM |
 | Verification Results (VER) | TL |
 | Software Configuration Management Plan (SCM) | AN |
@@ -143,6 +145,7 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 - CR (รายฉบับ): `RBWF_CR_YYYYMMDD.md`
 - CR (ทะเบียนรวม): `RBWF_CR.md`
 - CRR (Correction Register): `RBWF_CRR.md`
+- BK (Project Repository Backup): `RBWF_BK_v1_0.md`
 - VER: `RBWF_VER_<TYPE>_YYYYMMDD.md`
 - VLD: `RBWF_VLD_YYYYMMDD.md`
 
@@ -244,15 +247,15 @@ Baseline คือข้อกำหนดหรือผลิตภัณฑ�
 ### 12.1 รายละเอียดการสำรองข้อมูล
 
 - **ข้อมูลที่สำรอง**: ซอร์สโค้ด ฐานข้อมูล MySQL เอกสารงานในคลัง ISO/IEC 29110 และข้อมูลทดสอบที่เกี่ยวข้อง
-- **เครื่องมือ**: Git/GitHub สำหรับซอร์สและเอกสาร markdown, Google Drive สำหรับสำเนารายเดือนระยะยาว
+- **เครื่องมือ**: Git/GitHub สำหรับซอร์สและเอกสาร markdown, [Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) สำหรับสำเนารายเดือนระยะยาว ตามทะเบียน [RBWF_BK_v1_0](RBWF_BK_v1_0.md)
 - **ความถี่**: สำรองทุกสิ้นเดือน (Monthly Backup)
 - **ผู้รับผิดชอบ**: นายปริญญา พงษ์ดนตรี (PR)
 
 ### 12.2 แผนการกู้คืน
 
 - กู้ซอร์สโค้ดจาก Git โดยดึงแท็กหรือคอมมิตที่เป็น baseline ล่าสุดที่อนุมัติ
-- กู้เอกสารจากคลัง `ISO-IEC-29110-RBWF` และสำเนา Google Drive ของเดือนนั้น
-- กู้ฐานข้อมูลจากไฟล์สำรองรายเดือนบน Google Drive
+- กู้เอกสารจากคลัง `ISO-IEC-29110-RBWF` และสำเนาใน [โฟลเดอร์ Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) ของเดือนนั้น
+- กู้ฐานข้อมูลจากไฟล์สำรองรายเดือนบนโฟลเดอร์ Google Drive เดียวกัน
 - ก่อนกู้คืนจริง ให้ทำสำเนาชั่วคราว (Temporary Backup) ของสภาพปัจจุบันเพื่อลดความผิดพลาด
 - ทดสอบการกู้คืนอย่างน้อยปีละครั้ง หรือเมื่อเปลี่ยนโครงสร้างคลัง/เซิร์ฟเวอร์
 
@@ -266,7 +269,7 @@ Baseline คือข้อกำหนดหรือผลิตภัณฑ�
 | จัดเก็บเอกสาร baseline | GitHub repository `ISO-IEC-29110-RBWF` โฟลเดอร์ `BASELINE/` |
 | ควบคุมการเปลี่ยนแปลง | แบบฟอร์ม CR ทะเบียน `RBWF_CR.md` และ Correction Register `RBWF_CRR.md` |
 | สถานะและการตรวจ | ประวัติในเอกสาร, VER, VLD, RTM, `RBWF_ALL.md` |
-| Backup ระยะยาว | Google Drive (ผู้รับผิดชอบ PR) |
+| Backup ระยะยาว | [Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) (ผู้รับผิดชอบ PR) |
 
 โครงการนี้ไม่ใช้ Jira หรือระบบออกตั๋วแยก ใช้สายงาน CR ในคลังเอกสารร่วมกับ Git เป็นหลักฐานการควบคุมการเปลี่ยนแปลง
 

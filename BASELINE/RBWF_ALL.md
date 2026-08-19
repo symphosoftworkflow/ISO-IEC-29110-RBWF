@@ -78,7 +78,7 @@
 | WP.09 | Progress Status Record (External) | RBWF_PSR_20260327 | [RBWF_PSR_20260327](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PSR/RBWF_PSR_20260327) |
 | WP.09 | Progress Status Record (External) | RBWF_PSR_20260424 | [RBWF_PSR_20260424](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PSR/RBWF_PSR_20260424) |
 | WP.09 | Progress Status Record (External) | RBWF_PSR_20260529 | [RBWF_PSR_20260529](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PSR/RBWF_PSR_20260529) |
-| WP.12 | Project Repository Backup | ยังไม่มีไฟล์แยก (อ้างแผน Backup ใน PMP) | [RBWF_PMP_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_PMP_v1_0) |
+| WP.12 | Project Repository Backup | RBWF_BK_v1_0 | [Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) |
 
 ## 7.0 Traceability Control
 

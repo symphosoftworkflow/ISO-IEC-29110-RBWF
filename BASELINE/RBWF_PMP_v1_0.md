@@ -142,14 +142,14 @@
 
 - **ข้อมูลที่สำรอง**: ซอร์สโค้ด ฐานข้อมูล MySQL เอกสารงานในคลัง ISO/IEC 29110 เอกสารออกแบบ SRS/SDD และข้อมูลทดสอบที่เกี่ยวข้อง
 - **วิธีการสำรอง**: สำรองแบบกำหนดรอบทุกสิ้นเดือน ผ่านเซิร์ฟเวอร์และที่เก็บคลาวด์ที่เข้าถึงได้เมื่อเกิดเหตุฉุกเฉิน
-- **เครื่องมือที่ใช้**: Git/GitHub สำหรับควบคุมเวอร์ชันซอร์สโค้ดและเอกสาร markdown; Google Drive สำหรับสำเนารายเดือนระยะยาว; การ dump ฐานข้อมูล MySQL
+- **เครื่องมือที่ใช้**: Git/GitHub สำหรับควบคุมเวอร์ชันซอร์สโค้ดและเอกสาร markdown; Google Drive สำหรับสำเนารายเดือนระยะยาวที่ [โฟลเดอร์สำรองโครงการ](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing); การ dump ฐานข้อมูล MySQL
 - **ผู้รับผิดชอบ**: นายปริญญา พงษ์ดนตรี (PR) ตั้งค่าและตรวจสอบสถานะข้อมูลสำรอง ผู้ดูแลระบบตรวจสอบความสมบูรณ์ก่อนกู้คืน
-- **ความถี่**: สำรองข้อมูลรายเดือน (Monthly Backup) จัดเก็บสำเนาบน Google Drive
+- **ความถี่**: สำรองข้อมูลรายเดือน (Monthly Backup) จัดเก็บสำเนาบนโฟลเดอร์ Google Drive ตามทะเบียน [RBWF_BK_v1_0](RBWF_BK_v1_0.md)
 
 ### แผนการกู้คืนข้อมูล (Recovery Plan)
 
 - กู้ซอร์สโค้ดจาก Git โดยดึงแท็กหรือคอมมิตที่เป็น baseline ล่าสุดที่อนุมัติ
-- กู้เอกสารจากคลัง `ISO-IEC-29110-RBWF` และสำเนา Google Drive ของเดือนนั้น
+- กู้เอกสารจากคลัง `ISO-IEC-29110-RBWF` และสำเนาใน [โฟลเดอร์ Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) ของเดือนนั้น
 - กู้ฐานข้อมูลจากไฟล์สำรองรายเดือน โดยต้อง Restore กลับคืนได้ภายใน 1 ชั่วโมง ตาม REQ-NFR-04
 - ก่อนกู้คืนจริง ให้ทำสำเนาชั่วคราว (Temporary Backup) ของสภาพปัจจุบัน
 - ทดสอบแผนการกู้คืนอย่างน้อยปีละครั้ง หรือเมื่อเปลี่ยนโครงสร้างคลัง/เซิร์ฟเวอร์
@@ -178,6 +178,7 @@
 | Progress Status Record (PSR) | PM |
 | Change Request (CR) | AN |
 | Correction Register (CRR) | PM |
+| Project Repository Backup (BK) | PR |
 | Acceptance Record / UAT | PM |
 | Verification Results (VER) | TL |
 | Software Configuration Management Plan (SCM) | AN |
@@ -200,7 +201,7 @@
 
 ### 8.4 การ Backup และ Recovery
 
-- **Monthly Backup**: สำรองซอร์สโค้ดและฐานข้อมูลทุกสิ้นเดือนไปยัง Google Drive รับผิดชอบโดย นายปริญญา พงษ์ดนตรี (PR)
+- **Monthly Backup**: สำรองซอร์สโค้ดและฐานข้อมูลทุกสิ้นเดือนไปยัง [โฟลเดอร์ Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing) รับผิดชอบโดย นายปริญญา พงษ์ดนตรี (PR) ตามทะเบียน [RBWF_BK_v1_0](RBWF_BK_v1_0.md)
 - **การกู้คืน**: ดำเนินการด้วยความระมัดระวัง และสำรองข้อมูลชั่วคราวทุกครั้งก่อนกู้คืนจริง ตามข้อ 7
 
 ---
