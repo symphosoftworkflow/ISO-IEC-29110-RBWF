@@ -2,8 +2,6 @@
 
 # RABBIT WORKFLOW (RBWF) - ISO/IEC 29110 WORK PRODUCTS BASELINE INDEX
 
-ดัชนีนี้เรียงตามลำดับกระบวนการใน ISO/IEC 29110 เพื่อใช้ประกอบการนำเสนอ  
-ลิงก์เอกสารใช้ GitHub Pages ชุดเดิม ไม่ได้ย้ายไฟล์ใน `BASELINE/`
 
 ## 1.0 Project Initiation
 
