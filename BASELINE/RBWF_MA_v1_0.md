@@ -1,12 +1,14 @@
 <img src="../LOGO/logo.png" alt="Symphosoft Logo" width="200"/>
 
-# เอกสาร ข้อตกลงและแผนการบำรุงรักษาซอฟต์แวร์ (MAINTENANCE AGREEMENT - MA)
+# เอกสารบำรุงรักษาซอฟต์แวร์ทางเทคนิค (MAINTENANCE DOCUMENTATION - MA)
+
+เอกสารนี้สำหรับ**ทีมเทคนิค** (ติดตั้ง เฝ้าระวัง สำรอง กู้คืน) และกำหนด SLA หลังส่งมอบ ไม่ใช่คู่มือผู้ใช้ปลายทาง
 
 **ชื่อระบบงาน[TH]**: ระบบบริหารงานธุรกิจจัดจำหน่ายวัสดุก่อสร้างและกระเบื้องครบวงจร  
 **ชื่อระบบงาน[EN]**: Rabbit Workflow System (RBWF)  
 **เวอร์ชัน**: 1.0  
 **จัดทำโดย**: นางสาวปวริศา จันทรสถาพร (PM)  
-**วันที่อนุมัติเอกสาร**: 25 พฤษภาคม พ.ศ. 2569  
+**วันที่อนุมัติเอกสาร**: 25 พฤษภาคม พ.ศ. 2569
 
 ---
 
@@ -14,94 +16,100 @@
 
 | ลำดับ | เวอร์ชัน | รายละเอียดการดำเนินการ | ผู้ดำเนินการ | วันที่ดำเนินการ |
 |---|---|---|---|---|
-| 1 | 0.1 | จัดทำร่างข้อตกลงและแผนการบำรุงรักษา | นางสาวปวริศา จันทรสถาพร (PM) | 20 พฤษภาคม พ.ศ. 2569 |
-| 2 | 1.0 | อนุมัติข้อตกลงและแผนการบำรุงรักษา | นางษมาภรณ์ พงษ์ดนตรี (ผู้แทนลูกค้า) | 25 พฤษภาคม พ.ศ. 2569 |
+| 1 | 0.1 | จัดทำร่างเอกสารบำรุงรักษาทางเทคนิค | นางสาวปวริศา จันทรสถาพร (PM) | 21 พฤษภาคม พ.ศ. 2569 |
+| 2 | 1.0 | อนุมัติเอกสารบำรุงรักษาทางเทคนิค | นางษมาภรณ์ พงษ์ดนตรี (ผู้แทนลูกค้า) | 25 พฤษภาคม พ.ศ. 2569 |
 
 ---
 
-## 1. ขอบเขตการบำรุงรักษาระบบ (Scope of Maintenance)
+## 1. ขอบเขตการบำรุงรักษา
 
-ทีมผู้พัฒนาตกลงให้บริการบำรุงรักษาซอฟต์แวร์ **Rabbit Workflow (RBWF)** แก่ **บริษัท ซิมโฟร์ซอฟท์ จำกัด** เป็นระยะเวลา 1 ปี (12 เดือน) นับตั้งแต่วันที่รับมอบงาน โดยครอบคลุมประเภทงานบำรุงรักษาดังนี้:
-1. **Corrective Maintenance**: แก้ไขข้อผิดพลาดของซอฟต์แวร์ (Bugs) ที่เกิดขึ้นจากการใช้งานปกติ
-2. **Adaptive Maintenance**: ปรับปรุงการทำงานให้รองรับการอัปเดตระบบปฏิบัติการ OS และ Web Browser เวอร์ชันใหม่
-3. **Preventive Maintenance**: ตรวจสอบความสมบูรณ์ของฐานข้อมูล ล้างไฟล์ Cache และตรวจสอบ Security Patch ประจำเดือน
+ทีมผู้พัฒนาให้บริการบำรุงรักษา **Rabbit Workflow (RBWF)** แก่ **บริษัท ซิมโฟร์ซอฟท์ จำกัด** 12 เดือน นับจากวันถัดจากปิดโครงการ
 
----
+1. **Corrective**: แก้ข้อผิดพลาดจากการใช้งานปกติ
+2. **Adaptive**: รองรับการอัปเดต OS และเบราว์เซอร์
+3. **Preventive**: ตรวจฐานข้อมูล แคช และ Security Patch ประจำเดือน
 
-## 2. การตั้งค่าและการกำหนดค่าระบบ (System Configuration Controls)
-
-### 2.1 สภาพแวดล้อมระบบ Production (Production Environment Configuration)
-- **Database Server**: MySQL 8.0 LTS (Port 3306) พร้อมการตั้งค่า Connection Pool Max=100
-- **Cache Server**: Redis 7.2 (Port 6379) พร้อมการตั้งค่า Eviction Policy = volatile-lru
-- **Web Application Server**: Nginx Reverse Proxy (Port 80/443 SSL TLS 1.3)
-
-### 2.2 สภาพแวดล้อมการพัฒนาและทดสอบ (Development & Staging Configuration)
-- **Development Environment**: Docker & Docker Compose จำลองสภาพแวดล้อมตรงกับ Production 100%
-- **Version Control**: Git Branch `main` สำหรับ Production, `staging` สำหรับการทดสอบ UAT และ `feature/*` สำหรับการพัฒนาย่อย
+ไม่มี Payment Gateway หรือ Mapping API ในขอบเขตระบบ
 
 ---
 
-## 3. การควบคุมรายการและทรัพย์สินซอฟต์แวร์ (Configuration Control & Non-deliverables)
+## 2. สภาพแวดล้อมทางเทคนิค
 
-### 3.1 รายการที่ส่งมอบ (Deliverable Items)
-- ซอร์สโค้ดภาษา Go (Backend) และ Svelte (Frontend) บน GitHub Repository
-- เอกสาร ISO/IEC 29110 Work Products ทั้ง 21 ฉบับ
-- ไฟล์ฐานข้อมูลสคริปต์โครงสร้าง DB Schema (`.sql`)
+อ้างอิง [RBWF_IE_v1_0](RBWF_IE_v1_0.md)
 
-### 3.2 รายการที่ไม่ต้องส่งมอบ (Non-deliverable Items)
-- รหัสผ่านลับส่วนตัวของผู้ดูแลระบบ (Private Keys & Production Secrets)
-- สภาพแวดล้อม Sandbox ส่วนบุคคลของนักพัฒนา (Local Scratch Workspace)
+- Production: Ubuntu 22.04 LTS, 4 vCPU, RAM 8 GB, NVMe 160 GB
+- Docker 26+ / Docker Compose v2.26+, Nginx HTTPS, MySQL 8.0, Redis 7.2, Go 1.22+, Svelte
+- ซอร์ส: [github.com/symphosoftworkflow/workflowv2.rabbittile.com](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com)
+- สาขา: `main` = Production, `staging` = ทดสอบ, `feature/*` = พัฒนา
 
----
-
-## 4. การบำรุงรักษาประจำและขั้นตอนการสำรองข้อมูล (Preventive Maintenance & Backup)
-
-- **การบำรุงรักษาฐานข้อมูล MySQL**: ทำการ `OPTIMIZE TABLE` และตรวจสอบ Database Indexing ทุกวันอาทิตย์สัปดาห์ที่ 2 ของเดือน
-- **การบำรุงรักษาเซิร์ฟเวอร์**: ตรวจสอบ Disk Space, Memory Usage และ Log Rotation ทุกสัปดาห์
-- **การสำรองข้อมูลอัตโนมัติ**: สำรองฐานข้อมูลแบบอัตโนมัติด้วย Cron Job ทุกวัน เวลา 01:00 น. จัดเก็บไฟล์ย้อนหลัง 30 วัน
+บริการหลัก: `rbwf-api` (8080), `rbwf-frontend` (3000), `rbwf-mysql` (3306), `rbwf-redis` (6379), `rbwf-nginx` (80/443)
 
 ---
 
-## 5. การบริหารจัดการเหตุการณ์และปัญหา (Incident Management & Root Cause Analysis)
+## 3. การเริ่มต้นและหยุดบริการ
 
-เมื่อเกิดเหตุการณ์ระบบขัดข้อง ทีมงานจะดำเนินการตามขั้นตอน:
-1. **การแจ้งเตือนและการระบุปัญหา (Incident Logging)**: บันทึกในระบบ Helpdesk ภายใน 1 ชั่วโมง
-2. **การวิเคราะห์หาสาเหตุหลัก (Root Cause Analysis - RCA)**: ดำเนินการตรวจสอบ Log Traceback และแก้ไขที่ต้นเหตุ
-3. **การทดสอบและการอัปเดต (Patch Deployment)**: ทดสอบแพตช์บน Staging Server ก่อนอัปเดตขึ้น Production ในช่วงเวลาที่มีการใช้งานต่ำ
+```bash
+git clone git@github.com:symphosoftworkflow/workflowv2.rabbittile.com.git
+cd workflowv2.rabbittile.com
+docker compose down
+docker compose up --build -d
+docker compose ps
+docker compose logs -f rbwf-api
+```
+
+รีเซ็ตรหัสผ่านผู้ดูแลทำบนเซิร์ฟเวอร์โดยทีมเทคนิคเท่านั้น ห้ามเก็บ Production secrets ในคลังเอกสาร
 
 ---
 
-## 6. ข้อตกลงระดับการให้บริการ (Service Level Agreement - SLA) และระยะเวลารับประกัน (Warranty Period)
+## 4. สำรองข้อมูลและกู้คืน
 
-- **ระยะเวลารับประกัน (Warranty Period)**: 12 เดือน นับจากวันส่งมอบงานสำเร็จ (01 มิถุนายน 2569 - 31 พฤษภาคม 2570)
+- **รายวัน**: `mysqldump` ผ่าน Cron เวลา 01:00 น. เก็บ `.sql.gz` ย้อนหลัง 30 วัน
+- **รายเดือน**: สำเนาคลังโครงการและ dump ตาม [RBWF_BK_v1_0](RBWF_BK_v1_0.md) ที่ [โฟลเดอร์ Google Drive](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing)
+- **กู้คืน**: ต้องทำให้เสร็จภายใน 1 ชั่วโมง (REQ-NFR-04) การทดสอบ Restore ISS-010 วันที่ 25 พฤษภาคม พ.ศ. 2569 ผ่านเกณฑ์แล้ว ไม่สร้างโฟลเดอร์สำรองใหม่จากการทดสอบ
+- **Preventive**: `OPTIMIZE TABLE` และตรวจ index ทุกวันอาทิตย์สัปดาห์ที่ 2 ของเดือน ตรวจ disk/memory และ log rotation ทุกสัปดาห์
 
-| ความรุนแรงของปัญหา (Severity) | เวลาในการตอบรับ (Response Time) | เวลาในการแก้ไข (Resolution Time) |
+---
+
+## 5. เหตุการณ์ขัดข้อง (Incident)
+
+1. บันทึก Helpdesk ภายใน 1 ชั่วโมง
+2. วิเคราะห์สาเหตุจาก log (`docker compose logs`)
+3. ทดสอบแพตช์บน Staging ก่อนขึ้น Production นอกชั่วโมงใช้งานสูง
+
+---
+
+## 6. SLA และระยะเวลารับประกัน
+
+**ระยะเวลารับประกัน**: 01 มิถุนายน พ.ศ. 2569 – 31 พฤษภาคม พ.ศ. 2570
+
+| ความรุนแรง | เวลาตอบรับ | เวลาแก้ไข |
 |---|---|---|
-| **Critical (ระบบล่ม ไม่สามารถทำงานได้)** | ภายใน 1 ชั่วโมง | ภายใน 8 ชั่วโมง |
-| **High (ฟังก์ชันหลักมีปัญหา)** | ภายใน 2 ชั่วโมง | ภายใน 24 ชั่วโมง |
-| **Medium/Low (ปัญหาย่อย/ข้อสอบถาม)** | ภายใน 4 ชั่วโมง | ภายใน 48 ชั่วโมง |
+| Critical (ระบบใช้ไม่ได้) | 1 ชั่วโมง | 8 ชั่วโมง |
+| High (ฟังก์ชันหลักเสีย) | 2 ชั่วโมง | 24 ชั่วโมง |
+| Medium/Low | 4 ชั่วโมง | 48 ชั่วโมง |
+
+**ช่องทาง**: support@symphosoft.com วันจันทร์–ศุกร์ 08:30–17:30 น.
 
 ---
 
-## 7. ช่องทางการติดต่อและรับแจ้งปัญหา (Helpdesk Channels)
+## 7. รายการส่งมอบและไม่ส่งมอบ
 
-- **Email Support**: support@symphosoft.com
-- **Hotline Support**: 02-XXX-XXXX
-- **เวลาทำการ**: วันจันทร์ - ศุกร์ (08:30 - 17:30 น.)
+**ส่งมอบ**: ซอร์ส Go/Svelte, เอกสาร ISO/IEC 29110, สคริปต์ schema  
+**ไม่ส่งมอบ**: Production secrets, workspace เฉพาะนักพัฒนา
 
 ---
 
-## 8. ข้อตกลงและการลงนามอนุมัติ (Sign-off Agreement)
+## ข้อตกลงและการลงนามอนุมัติ (Sign-off Agreement)
 
  - [x] อนุมัติ  
  - [ ] ไม่อนุมัติ  
 
 <br/>
 
-| **ผู้จัดทำ (Prepared By)** | **ผู้ทบทวน / สอบทาน (Reviewed By)** | **ผู้ว่าจ้าง / ลูกค้า (Customer Approver)** |
+| **ผู้จัดทำ (Prepared By)** | **ผู้ทบทวน (Reviewed By)** | **ผู้ว่าจ้าง / ลูกค้า (Customer Approver)** |
 |---|---|---|
 | <img src="../LOGO/signature_pawarisa.png" alt="Signature PM" width="150"/><br/>________________________________________ | <img src="../LOGO/signature_veera.png" alt="Signature TL" width="150"/><br/>________________________________________ | <img src="../LOGO/nook.png" alt="Signature Customer" width="150"/><br/>________________________________________ |
 | **(นางสาวปวริศา จันทรสถาพร)** | **(นายวีระ เนียมโภคะ)** | **(นางษมาภรณ์ พงษ์ดนตรี)** |
-| ผู้จัดการโครงการ (PM) | หัวหน้าทีมวิเคราะห์ (TL, AN) | ผู้มีอำนาจลงนาม |
+| ผู้จัดการโครงการ (PM) | หัวหน้าทีมวิเคราะห์ (TL) | ผู้มีอำนาจลงนาม |
 | โครงการ RABBIT WORKFLOW (RBWF) | โครงการ RABBIT WORKFLOW (RBWF) | **บริษัท ซิมโฟร์ซอฟท์ จำกัด** |
 | วันที่: 25 พฤษภาคม พ.ศ. 2569 | วันที่: 25 พฤษภาคม พ.ศ. 2569 | วันที่: 25 พฤษภาคม พ.ศ. 2569 |
