@@ -122,5 +122,5 @@
 |---|---|---|---|
 | WP.01 | Acceptance Record (งวดที่ 1 — 30%) | RBWF_VLD_20260130 | [RBWF_VLD_20260130](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260130) |
 | WP.01 | Acceptance Record (งวดที่ 2 — 40%) | RBWF_VLD_20260327 | [RBWF_VLD_20260327](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260327) |
-| WP.01 | Acceptance Record (งวดที่ 3 — 30%) | RBWF_VLD_20260525 | [RBWF_VLD_20260525](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260525) |
-| WP.01 | Acceptance Record | RBWF_VLD_20260529 | [RBWF_VLD_20260529](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260529) |
+| WP.01 | Acceptance Record (งวดที่ 3 — 30%) | RBWF_VLD_20260529 | [RBWF_VLD_20260529](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260529) |
+| WP.01 | Acceptance Record | RBWF_VLD_20260525 | [RBWF_VLD_20260525](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260525) |
