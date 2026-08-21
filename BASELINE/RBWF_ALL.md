@@ -37,14 +37,15 @@
 |---|---|---|---|
 | WP.13 | Requirements Specification (Ver, Val) | RBWF_SRS_v1_0 | [RBWF_SRS_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SRS_v1_0) |
 | WP.23 | Verification Record (SRS) | RBWF_VER_SRS_20260215 | [RBWF_VER_SRS_20260215](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VER/RBWF_VER_SRS_20260215) |
-| WP.22 | Validation Record (SRS) | RBWF_VLD_20260205 | [RBWF_VLD_20260205](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260205) |
+| WP.22 | Validation Record (SRS) | RBWF_VLD_20260215 | [RBWF_VLD_20260215](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260215) |
 
 ## 5.0 Software Design
 
 | WP | ISO/IEC 29110 Work Products | ชื่อเอกสาร (RBWF) | URL |
 |---|---|---|---|
-| WP.16 | Software Design (Ver) | RBWF_SDD_v1_0 | [RBWF_SDD_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SDD_v1_0) |
+| WP.16 | Software Design (Ver, Val) | RBWF_SDD_v1_0 | [RBWF_SDD_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SDD_v1_0) |
 | WP.23 | Verification Record (SDD) | RBWF_VER_SDD_20260310 | [RBWF_VER_SDD_20260310](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VER/RBWF_VER_SDD_20260310) |
+| WP.22 | Validation Record (SDD) | RBWF_VLD_20260310 | [RBWF_VLD_20260310](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VLD/RBWF_VLD_20260310) |
 
 ## 6.0 Software Construction
 

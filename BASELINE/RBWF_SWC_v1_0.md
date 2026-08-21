@@ -52,8 +52,6 @@
 | [SC-NFR-03](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) `api/middleware/` | REQ-NFR-03 | นายปริญญา พงษ์ดนตรี (PR) | 15/04/2026 | 10/04/2026 | 15/04/2026 | TC-NFR-03 | นายประกาศิต ทองนอก (TESTER) | 12/04/2026 | 15/04/2026 | TC-NFR-03 | นายประกาศิต ทองนอก (TESTER) | 29/04/2026 | 29/04/2026 |
 | [SC-NFR-04](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) | REQ-NFR-04 | นายปริญญา พงษ์ดนตรี (PR) | 15/04/2026 | 10/04/2026 | 15/04/2026 | TC-NFR-04 | นายประกาศิต ทองนอก (TESTER) | 12/04/2026 | 15/04/2026 | TC-NFR-04 | นายประกาศิต ทองนอก (TESTER) | 30/04/2026 | 30/04/2026 |
 
-ไม่มีแถว **SC-STK-03** เพราะฟังก์ชัน Edging ถูกตัดออกจากขอบเขตแล้ว
-
 ---
 
 ## 2. ดรรชนีซอร์สโค้ดและโมดูลซอฟต์แวร์ (Source Code Component Index)

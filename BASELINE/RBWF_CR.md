@@ -28,8 +28,8 @@
 
 | **ผู้จัดทำ (Prepared By)** | **ผู้ทบทวน / สอบทาน (Reviewed By)** | **ผู้ว่าจ้าง / ลูกค้า (Customer Approver)** |
 |---|---|---|
-| <img src="../LOGO/signature_pawarisa.png" alt="Signature PM" width="150"/><br/>________________________________________ | <img src="../LOGO/signature_veera.png" alt="Signature TL" width="150"/><br/>________________________________________ | <img src="../LOGO/nook.png" alt="Signature Customer" width="150"/><br/>________________________________________ |
-| **(นางสาวปวริศา จันทรสถาพร)** | **(นายวีระ เนียมโภคะ)** | **(นางษมาภรณ์ พงษ์ดนตรี)** |
+| <img src="../LOGO/signature_pawarisa.png" alt="Signature PM" width="150"/><br/>________________________________________ | <img src="../LOGO/signature_veera.png" alt="Signature TL" width="150"/><br/>________________________________________ | <img src="../LOGO/signature_tinophat.png" alt="Signature Customer" width="150"/><br/>________________________________________ |
+| **(นางสาวปวริศา จันทรสถาพร)** | **(นายวีระ เนียมโภคะ)** | **(นายทิโนภาส อรไทวรรณ)** |
 | ผู้จัดการโครงการ (PM) | หัวหน้าทีมวิเคราะห์ (TL, AN) | ผู้มีอำนาจลงนาม |
 | โครงการ RABBIT WORKFLOW (RBWF) | โครงการ RABBIT WORKFLOW (RBWF) | **บริษัท ซิมโฟร์ซอฟท์ จำกัด** |
 | วันที่: 31 พฤษภาคม พ.ศ. 2569 | วันที่: 31 พฤษภาคม พ.ศ. 2569 | วันที่: 31 พฤษภาคม พ.ศ. 2569 |

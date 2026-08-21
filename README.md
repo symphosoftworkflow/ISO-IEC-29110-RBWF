@@ -20,8 +20,8 @@ All official ISO/IEC 29110 Work Products for auditor review are compiled under t
 
 ## 🏢 Customer Details & Signatory
 - **Customer Organization**: บริษัท ซิมโฟร์ซอฟท์ จำกัด
-- **Authorized Signatory (ผู้มีอำนาจลงนาม)**: นางษมาภรณ์ พงษ์ดนตรี
-- **Signature File**: `customersignature/nook.png`
+- **Authorized Signatory (ผู้มีอำนาจลงนาม)**: นายทิโนภาส อรไทวรรณ
+- **Signature File**: `customersignature/signature_tinophat.png`
 
 ---
 
