@@ -141,7 +141,9 @@ SCM ของโครงการนี้ครอบคลุมงานต�
 
 รูปแบบระเบียนตามวันที่:
 
-- MOM: `RBWF_MOM_YYYYMMDD.md`
+- MOM (Meeting Record):
+  - ประชุมภายในทีม: `RBWF_MOM_INT_YYYYMMDD.md`
+  - ประชุมร่วมลูกค้า (ภายนอก): `RBWF_MOM_EXT_YYYYMMDD.md`
 - PSR: `RBWF_PSR_YYYYMMDD.md`
 - CR (รายฉบับ): `RBWF_CR_YYYYMMDD.md`
 - CR (ทะเบียนรวม): `RBWF_CR.md`
