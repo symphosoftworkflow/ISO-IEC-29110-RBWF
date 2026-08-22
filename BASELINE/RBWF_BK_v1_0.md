@@ -9,7 +9,7 @@
 
 เอกสารนี้เป็นหลักฐาน WP.12 สำหรับที่เก็บสำเนารายเดือนระยะยาว ไม่มีลายเซ็นลูกค้า
 
-**โฟลเดอร์สำรอง Google Drive**: [https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing)
+**โฟลเดอร์สำรอง**: Google Drive ของบริษัท LA-OR — พาธ `My Drive/BACKUP/RBWF_REPOSITORY_BACKUP` ([เปิดโฟลเดอร์](https://drive.google.com/drive/folders/18E0MSSXUGmgzW8v-OFUDRGwLmIJXBSPX?usp=sharing))
 
 แผนสำรองและกู้คืนฉบับเต็มอยู่ใน [RBWF_PMP_v1_0](RBWF_PMP_v1_0.md) ข้อ 7 และ [RBWF_SCM_v1_0](RBWF_SCM_v1_0.md) ข้อ 12
 
