@@ -37,7 +37,8 @@
 
 อ้างอิง [RBWF_IE_v1_0](RBWF_IE_v1_0.md)
 
-- Production: Ubuntu 22.04 LTS, 4 vCPU, RAM 8 GB, NVMe 160 GB
+- Production: Ubuntu 22.04 LTS, 4 vCPU, RAM 8 GB, NVMe 160 GB — URL: `https://workflowv2.rabbittile.com/`
+- Staging (ทดสอบ): `https://staging.rabbittile.com`
 - Docker 26+ / Docker Compose v2.26+, Nginx HTTPS, MySQL 8.0, Redis 7.2, Go 1.22+, Svelte
 - ซอร์ส: [github.com/symphosoftworkflow/workflowv2.rabbittile.com](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com)
 - สาขา: `main` = Production, `staging` = ทดสอบ, `feature/*` = พัฒนา

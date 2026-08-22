@@ -107,6 +107,7 @@ npm run dev
 ### 5.1 สภาพแวดล้อมการทดสอบ (Testing Environment)
 - **Automated Testing**: Go test toolsuite สำหรับ Unit Test และ Integration Test
 - **UI / UAT Testing Environment**: Staging URL (`https://staging.rabbittile.com`) สำหรับการทดสอบโดยลูกค้าก่อนขึ้นระบบจริง
+- **Production Environment**: Delivered URL (`https://workflowv2.rabbittile.com/`) สำหรับใช้งานจริงหลังรับมอบขั้นสุดท้าย
 
 ### 5.2 สภาพแวดล้อมการสำรองข้อมูล (Backup Environment)
 - **Database Automated Backup**: `mysqldump` ทำงานร่วมกับ Cron Job ทุกวัน เวลา 01:00 น.

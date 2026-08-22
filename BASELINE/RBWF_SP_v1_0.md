@@ -40,7 +40,7 @@
 
 | รายการ | รายละเอียด |
 |---|---|
-| **Delivered URL** | [https://iso29110.la-or.co.th/](https://iso29110.la-or.co.th/) |
+| **Delivered URL** | [https://workflowv2.rabbittile.com/](https://workflowv2.rabbittile.com/) |
 | สภาพแวดล้อม | Production (HTTPS) |
 | วันที่ส่งมอบ / รับมอบ | 29 พฤษภาคม พ.ศ. 2569 |
 | ผู้รับมอบ | **บริษัท ซิมโฟร์ซอฟท์ จำกัด** (นายทิโนภาส อรไทวรรณ) |
@@ -50,7 +50,7 @@
 ### รายละเอียดการเข้าใช้งาน Production
 
 - โปรโตคอล: HTTPS  
-- จุดเข้าใช้งานหลัก: `https://iso29110.la-or.co.th/`  
+- จุดเข้าใช้งานหลัก: `https://workflowv2.rabbittile.com/`  
 - คู่มือผู้ดูแลระบบ: [RBWF_POG_v1_0](RBWF_POG_v1_0.md)  
 - คู่มือผู้ใช้ปลายทาง: [RBWF_SUD_v1_0](RBWF_SUD_v1_0.md)  
 - แผนบำรุงรักษาทางเทคนิค: [RBWF_MA_v1_0](RBWF_MA_v1_0.md)  
@@ -64,7 +64,7 @@
 | **Source repository** | [https://github.com/symphosoftworkflow/workflowv2.rabbittile.com](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) |
 | ส่วนประกอบโค้ด | [RBWF_SWC_v1_0](RBWF_SWC_v1_0.md) |
 
-หมายเหตุ: URL โดเมน `workflowv2.rabbittile.com` ที่ใช้ในช่วงพัฒนา/Staging (เช่น รับมอบงวดที่ 2) **ไม่ใช่** Delivered URL ของสถานะ Production สุดท้าย
+หมายเหตุ: URL โดเมน `staging.rabbittile.com` ที่ใช้ในช่วงพัฒนา/Staging (เช่น รับมอบงวดที่ 2) — Delivered URL คือ `workflowv2.rabbittile.com` ซึ่งเป็นสถานะ Production สุดท้าย
 
 ---
 
@@ -77,7 +77,7 @@
 | Traceability record | RBWF_RTM_v1_0 | [RBWF_RTM_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_RTM_v1_0) |
 | Software components | RBWF_SWC_v1_0 | [RBWF_SWC_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SWC_v1_0) |
 | Software | workflowv2.rabbittile.com (source) | [GitHub](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) |
-| Software (delivered instance) | Production | [https://iso29110.la-or.co.th/](https://iso29110.la-or.co.th/) |
+| Software (delivered instance) | Production | [https://workflowv2.rabbittile.com/](https://workflowv2.rabbittile.com/) |
 | Test cases and test procedures | RBWF_TP_v1_0 | [RBWF_TP_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_TP_v1_0) |
 | Test report | RBWF_TR_v1_0 | [RBWF_TR_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_TR_v1_0) |
 | Product operation guideline | RBWF_POG_v1_0 | [RBWF_POG_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_POG_v1_0) |

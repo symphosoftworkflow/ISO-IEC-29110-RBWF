@@ -30,7 +30,7 @@
 ## 2. เงื่อนไขก่อนใช้งาน
 
 - มีบทบาท Administrator ตาม RBAC
-- เข้าใช้งานผ่าน HTTPS ที่ `https://workflowv2.rabbittile.com`
+- เข้าใช้งานผ่าน HTTPS ที่ Production URL `https://workflowv2.rabbittile.com`
 - ใช้เบราว์เซอร์รุ่นล่าสุด (Chrome, Edge, Safari)
 - ห้ามแชร์รหัสผ่าน และเปลี่ยนรหัสผ่านอย่างน้อยทุก 90 วัน
 
