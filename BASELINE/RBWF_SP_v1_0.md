@@ -1,6 +1,6 @@
 <img src="../LOGO/logo.png" alt="Symphosoft Logo" width="200"/>
 
-# Software Product Delivery Record (WP.17)
+# Software Product Delivery Record
 
 **ชื่อระบบงาน[TH]**: ระบบบริหารงานธุรกิจจัดจำหน่ายวัสดุก่อสร้างและกระเบื้องครบวงจร  
 **ชื่อระบบงาน[EN]**: Rabbit Workflow System (RBWF)  
@@ -8,13 +8,13 @@
 **จัดทำโดย**: นางสาวปวริศา จันทรสถาพร (PM)  
 **วันที่จัดทำเอกสาร**: 29 พฤษภาคม พ.ศ. 2569
 
-เอกสารนี้เป็นหลักฐาน **WP.17 Software Product** ตาม ISO/IEC 29110 (Table 29) สำหรับชุดผลิตภัณฑ์ซอฟต์แวร์ที่ส่งมอบและได้รับการยอมรับ
+เอกสารนี้บันทึกรายการชุดผลิตภัณฑ์ซอฟต์แวร์ที่ส่งมอบและได้รับการยอมรับ
 
 ---
 
-## 1. นิยามตามมาตรฐาน (WP.17)
+## 1. รายการที่ต้องส่งมอบ
 
-Software Product คือชุดผลิตภัณฑ์ซอฟต์แวร์ที่ระบุตัวตนได้อย่างสอดคล้องกัน ประกอบด้วยอย่างน้อย:
+ชุดผลิตภัณฑ์ซอฟต์แวร์ที่ระบุตัวตนได้อย่างสอดคล้องกัน ประกอบด้วยอย่างน้อย:
 
 - Requirements specification  
 - Software design  
@@ -27,9 +27,9 @@ Software Product คือชุดผลิตภัณฑ์ซอฟต์แ
 - Software user documentation  
 - Maintenance documentation  
 
-**Applicable states ในโครงการนี้**
+**สถานะการส่งมอบ**
 
-| สถานะ | ความหมายในโครงการ RBWF | หลักฐาน |
+| สถานะ | ความหมาย | หลักฐาน |
 |---|---|---|
 | **delivered** | ส่งมอบระบบ Production และเอกสารประกอบแก่ลูกค้า | วันที่ 29 พฤษภาคม พ.ศ. 2569 |
 | **accepted** | ลูกค้าลงนามรับมอบขั้นสุดท้าย | [RBWF_VLD_FINAL_20260529](RBWF_VLD/RBWF_VLD_FINAL_20260529.md), [RBWF_MOM_EXT_20260529](RBWF_MOM/RBWF_MOM_EXT_20260529.md) |
@@ -57,21 +57,20 @@ Software Product คือชุดผลิตภัณฑ์ซอฟต์แ
 
 ---
 
-## 3. Source software ในชุด (WP.14)
+## 3. Source software
 
 | รายการ | รายละเอียด |
 |---|---|
 | **Source repository** | [https://github.com/symphosoftworkflow/workflowv2.rabbittile.com](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) |
-| ชื่อในดัชนี ALL | WP.14 Software |
 | ส่วนประกอบโค้ด | [RBWF_SWC_v1_0](RBWF_SWC_v1_0.md) |
 
 หมายเหตุ: URL โดเมน `workflowv2.rabbittile.com` ที่ใช้ในช่วงพัฒนา/Staging (เช่น รับมอบงวดที่ 2) **ไม่ใช่** Delivered URL ของสถานะ Production สุดท้าย
 
 ---
 
-## 4. ตารางส่วนประกอบ Software Product (ชุดส่งมอบ)
+## 4. ตารางรายการส่งมอบ
 
-| ส่วนประกอบตาม Table 29 | เอกสาร / หลักฐานในโครงการ | URL |
+| รายการส่งมอบ | เอกสาร / หลักฐาน | URL |
 |---|---|---|
 | Requirements specification | RBWF_SRS_v1_0 | [RBWF_SRS_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SRS_v1_0) |
 | Software design | RBWF_SDD_v1_0 | [RBWF_SDD_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SDD_v1_0) |
@@ -85,11 +84,9 @@ Software Product คือชุดผลิตภัณฑ์ซอฟต์แ
 | Software user documentation | RBWF_SUD_v1_0 | [RBWF_SUD_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SUD_v1_0) |
 | Maintenance documentation | RBWF_MA_v1_0 | [RBWF_MA_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_MA_v1_0) |
 
-ดัชนีครบชุดงานโครงการ: [RBWF_ALL](RBWF_ALL.md)
-
 ---
 
-## 5. สรุปสถานะ WP.17
+## 5. สรุปสถานะการส่งมอบ
 
 - [x] **delivered** — ส่งมอบ Production URL และชุดเอกสารประกอบแล้ว  
 - [x] **accepted** — ลูกค้าลงนามรับมอบ Final Delivery วันที่ 29 พฤษภาคม พ.ศ. 2569  
@@ -98,7 +95,7 @@ Software Product คือชุดผลิตภัณฑ์ซอฟต์แ
 
 ## ข้อตกลงและการลงนามอนุมัติ (Sign-off Agreement)
 
-เอกสารนี้ใช้ภายในโครงการเป็นหลักฐานประกอบดัชนี WP.17 การรับมอบกับลูกค้าอยู่ใน VLD Final
+การรับมอบกับลูกค้าอยู่ในเอกสาร VLD Final
 
  - [x] อนุมัติ  
  - [ ] ไม่อนุมัติ  
