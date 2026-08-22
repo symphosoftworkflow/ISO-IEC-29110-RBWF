@@ -115,7 +115,7 @@
 | WP.23 | Verification Record (POG) | RBWF_VER_POG_20260522 | [RBWF_VER_POG_20260522](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VER/RBWF_VER_POG_20260522) |
 | WP.06 | Maintenance Documentation (Ver) — Technical | RBWF_MA_v1_0 | [RBWF_MA_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_MA_v1_0) |
 | WP.23 | Verification Record (MA) | RBWF_VER_MA_20260525 | [RBWF_VER_MA_20260525](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_VER/RBWF_VER_MA_20260525) |
-| WP.17 | Software Product (Delivered) | workflowv2.rabbittile.com | [workflowv2.rabbittile.com](https://github.com/symphosoftworkflow/workflowv2.rabbittile.com) |
+| WP.17 | Software Product (Delivered, Accepted) | RBWF_SP_v1_0 | [RBWF_SP_v1_0](https://symphosoftworkflow.github.io/ISO-IEC-29110-RBWF/BASELINE/RBWF_SP_v1_0) |
 
 ## 12.0 Project Closure
 
