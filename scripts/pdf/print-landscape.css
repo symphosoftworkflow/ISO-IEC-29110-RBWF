@@ -1,0 +1,29 @@
+@page {
+  size: A4 landscape;
+  margin: 14mm 10mm 16mm 10mm;
+
+  @top-left {
+    content: "บริษัท ลา-ออ จำกัด · RABBIT WORKFLOW (RBWF)";
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @top-right {
+    content: string(doc-id);
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-left {
+    content: "ISO/IEC 29110 Baseline · Auditor pack";
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-right {
+    content: "หน้า " counter(page) " / " counter(pages);
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+}

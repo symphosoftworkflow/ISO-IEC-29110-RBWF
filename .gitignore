@@ -1,0 +1,7 @@
+.venv-pdf/
+.cache/
+docs/PDF/_qa/
+docs/PDF/_tmp/
+:memory:.ses
+.DS_Store
+docs/.DS_Store

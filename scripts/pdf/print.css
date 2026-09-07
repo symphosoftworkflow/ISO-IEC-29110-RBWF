@@ -1,0 +1,272 @@
+/* RBWF Baseline — print stylesheet for WeasyPrint auditor PDFs */
+
+@page {
+  size: A4 portrait;
+  margin: 18mm 14mm 20mm 14mm;
+
+  @top-left {
+    content: "บริษัท ลา-ออ จำกัด · RABBIT WORKFLOW (RBWF)";
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @top-right {
+    content: string(doc-id);
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-left {
+    content: "ISO/IEC 29110 Baseline · Auditor pack";
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-right {
+    content: "หน้า " counter(page) " / " counter(pages);
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+}
+
+@page landscape {
+  size: A4 landscape;
+  margin: 14mm 10mm 16mm 10mm;
+
+  @top-left {
+    content: "บริษัท ลา-ออ จำกัด · RABBIT WORKFLOW (RBWF)";
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @top-right {
+    content: string(doc-id);
+    font-size: 7.5pt;
+    color: #555;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-left {
+    content: "ISO/IEC 29110 Baseline · Auditor pack";
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+  @bottom-right {
+    content: "หน้า " counter(page) " / " counter(pages);
+    font-size: 7.5pt;
+    color: #666;
+    font-family: "Sarabun", "Noto Sans Thai", "Thonburi", sans-serif;
+  }
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: "Sarabun", "Noto Sans Thai", "Thonburi", "Sukhumvit Set",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+body.landscape {
+  font-size: 9pt;
+  page: landscape;
+}
+
+.doc-id-marker {
+  string-set: doc-id content();
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
+.pdf-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1.5pt solid #1e3a5f;
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+}
+
+.pdf-header-bar img.brand-logo {
+  height: 42px;
+  width: auto;
+}
+
+.pdf-header-meta {
+  flex: 1;
+}
+
+.pdf-header-meta .project {
+  font-size: 9pt;
+  color: #1e3a5f;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.pdf-header-meta .doc-id {
+  font-size: 8.5pt;
+  color: #666;
+}
+
+h1 {
+  font-size: 16pt;
+  color: #1e3a5f;
+  margin: 0.4em 0 0.6em;
+  line-height: 1.3;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 13pt;
+  color: #1e3a5f;
+  margin: 1.1em 0 0.45em;
+  padding-bottom: 3px;
+  border-bottom: 0.6pt solid #d0d7de;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 11.5pt;
+  color: #243447;
+  margin: 0.9em 0 0.35em;
+  break-after: avoid;
+}
+
+h4, h5, h6 {
+  font-size: 10.5pt;
+  margin: 0.7em 0 0.3em;
+  break-after: avoid;
+}
+
+p, li {
+  orphans: 3;
+  widows: 3;
+}
+
+a {
+  color: #0b57d0;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+ul, ol {
+  margin: 0.35em 0 0.6em;
+  padding-left: 1.4em;
+}
+
+blockquote {
+  margin: 0.6em 0;
+  padding: 0.4em 0.8em;
+  border-left: 3px solid #1e3a5f;
+  background: #f6f8fa;
+  color: #333;
+}
+
+hr {
+  border: none;
+  border-top: 0.6pt solid #d0d7de;
+  margin: 1em 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6em 0 1em;
+  font-size: 8.5pt;
+}
+
+body.landscape table {
+  font-size: 7.5pt;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+}
+
+th, td {
+  border: 0.5pt solid #b8c0cc;
+  padding: 3px 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
+th {
+  background: #e8eef5;
+  color: #1e3a5f;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) td {
+  background: #fafbfc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  break-inside: avoid;
+}
+
+img[alt*="Signature"],
+img[alt*="signature"],
+img[alt*="Logo"],
+img[alt*="logo"] {
+  max-height: 90px;
+  width: auto;
+}
+
+img[src*="signature"] {
+  max-height: 80px;
+  width: auto;
+}
+
+img[src*="sdd/"],
+img[src*="PROCESS/"] {
+  max-width: 100%;
+  max-height: 180mm;
+  object-fit: contain;
+  display: block;
+  margin: 0.5em auto;
+  break-inside: avoid;
+}
+
+pre, code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 8pt;
+}
+
+pre {
+  background: #f6f8fa;
+  border: 0.5pt solid #d0d7de;
+  border-radius: 3px;
+  padding: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  break-inside: avoid;
+}
+
+li input[type="checkbox"] {
+  margin-right: 0.35em;
+}
+
+.markdown-body > p:first-child > img[src*="logo.png"]:only-child {
+  display: none;
+}
+
+main.content {
+  max-width: 100%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <title>$docid$ — RBWF Baseline</title>
+  $for(css)$
+  <link rel="stylesheet" href="$css$" />
+  $endfor$
+</head>
+<body class="$bodyclass$">
+  <div class="doc-id-marker">$docid$</div>
+
+  <header class="pdf-header-bar">
+    <img class="brand-logo" src="$logopath$" alt="Company Logo" />
+    <div class="pdf-header-meta">
+      <div class="project">บริษัท ลา-ออ จำกัด · โครงการ RABBIT WORKFLOW (RBWF)</div>
+      <div class="doc-id">เอกสารส่งตรวจ: $docid$</div>
+    </div>
+  </header>
+
+  <main class="content markdown-body">
+$body$
+  </main>
+</body>
+</html>
